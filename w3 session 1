@@ -1,0 +1,90 @@
+# Problem 1
+
+# Expected output
+
+# Please enter a word: hello
+# Please enter a number: 5
+# 1: hello
+# 2. hello
+# 3. hello
+# 4. hello
+# 5. hello
+# f"{n}. {word}"
+
+# #problem 1
+# print("please enter a number")
+# number = int(input())
+# print("please enter a word")
+# word = input()
+# for n in range (1, number+1):
+#     print(f"{n}: {word}")
+
+# # problem 2
+# total = 0
+# n = int(input("How many numbers do you want to add? "))
+#
+# for i in range (1, n +1):
+#     total = total + i
+#
+# print("TOTAL", total)
+
+# problem 3
+
+# num = int(input("please enter your number: "))
+#
+# for i in range (1, 11):
+#     print(f"{i} X {num} = {i * num}")
+
+# problem 4
+
+# sentence = input("please enter your sentence")
+# character_number = 0
+# for x in (sentence):
+#     if x != " ":
+#         character_number += 1
+# print(character_number)
+
+# #problem 5
+# highest_value = 0
+# mark_num = int(input("please enter the amount of marks you desire to enter"))
+# for i in range (mark_num):
+#     marks_entered = int(input("enter mark"))
+#     if marks_entered > highest_value:
+#             highest_value = marks_entered
+# print(highest_value)
+
+# problem 6
+# pass_count = 0
+# mark_num = int(input("please enter the amount of marks you desire to enter"))
+# for i in range (mark_num):
+#     marks_entered = int(input("enter mark"))
+#     if marks_entered >= 40:
+#         print(marks_entered)
+#         pass_count =  pass_count + 1
+#
+# print("number of students who passed:", pass_count)
+
+# problem 7
+
+char_list = list(input("enter desired word to reverse: "))
+
+rev_string = ""
+for i in range(len(char_list) - 1,-1,-1):
+    rev_string += char_list[i]
+
+print(rev_string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
